@@ -1,7 +1,6 @@
 from pandas import read_excel
 from pandas import DataFrame
 import os
-import numpy as np
 
 path = os.path.join(os.getcwd(), "Files")
 files = os.listdir(os.path.join(os.getcwd(), "Files"))
